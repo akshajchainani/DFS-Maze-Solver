@@ -88,10 +88,4 @@ Demonstrates DFS with:
 ## Acknowledgments
 - Special thanks to the creators of the `pyamaze` library for providing a fantastic tool for maze generation and visualization.
 
----
 
-## License
-This project is licensed under the MIT License. See the LICENSE file for more details.
-```
-
-This version has all the content written in proper Markdown syntax, formatted as a single cohesive `README.md` file. Let me know if there’s anything else you'd like to modify!
