@@ -1,41 +1,49 @@
+Depth-First Search (DFS) Implementation
 
-```markdown
-# Depth-First Search (DFS) Implementation
+Overview
 
-## Overview
-This repository contains Python implementations of the Depth-First Search (DFS) algorithm using the `pyamaze` library. The DFS algorithm is used to navigate and find paths in a maze.
+This repository contains Python implementations of the Depth-First Search (DFS) algorithm using the pyamaze library. The DFS algorithm is used to navigate and find paths in a maze.
 
-### Contents
-- **DFS.py**: Basic DFS implementation for solving a maze.
-- **DFSDemo.py**: Advanced DFS demonstration with visualization and multiple agents.
-- **dfs.csv**: Sample data related to DFS (details may vary).
+Contents
 
-## Features
-- **Maze Creation**: Generate customizable mazes.
-- **Pathfinding**: Solve the maze using DFS.
-- **Visualization**: Visualize paths with agents in the maze.
+DFS.py: Basic DFS implementation for solving a maze.
 
-## Requirements
-- Python 3.x
-- Libraries:
-  - `pyamaze`
+DFSDemo.py: Advanced DFS demonstration with visualization and multiple agents.
 
-Install the required library with:
-```bash
+dfs.csv: Sample data related to DFS (details may vary).
+
+Features
+
+Maze Creation: Generate customizable mazes.
+
+Pathfinding: Solve the maze using DFS.
+
+Visualization: Visualize paths with agents in the maze.
+
+Requirements
+
+Python Version: Python 3.x
+
+Dependencies:
+
+pyamaze
+
+To install the required library, run:
+
 pip install pyamaze
-```
 
-## Usage
+Usage
 
-### Running `DFS.py`
+Running DFS.py
+
 This script demonstrates a simple DFS implementation to find a path through a maze. It generates a maze and visualizes the solved path.
 
-```bash
-python DFS.py
-```
+Run the script using:
 
-#### `DFS.py` Code
-```python
+python DFS.py
+
+DFS.py Code
+
 from pyMaze import maze, agent, COLOR
 def DFS(m):
     start = (m.rows, m.cols)
@@ -75,17 +83,17 @@ if __name__ == '__main__':
     a = agent(m, footprints=True)
     m.tracePath({a: path})
     m.run()
-```
 
-### Running `DFSDemo.py`
+Running DFSDemo.py
+
 This script extends the basic implementation to include advanced features like multiple agents and path visualization.
 
-```bash
-python DFSDemo.py
-```
+Run the script using:
 
-#### `DFSDemo.py` Code
-```python
+python DFSDemo.py
+
+DFSDemo.py Code
+
 from pyamaze import maze, agent, textLabel, COLOR
 
 def DFS(m, start=None):
@@ -127,9 +135,9 @@ def DFS(m, start=None):
     return dSearch, dfsPath, fwdPath
 
 if __name__ == '__main__':
-    m = maze(10, 10) 
-    m.CreateMaze(2, 4) 
-    dSearch, dfsPath, fwdPath = DFS(m, (5, 1)) 
+    m = maze(10, 10)
+    m.CreateMaze(2, 4)
+    dSearch, dfsPath, fwdPath = DFS(m, (5, 1))
     a = agent(m, 5, 1, goal=(2, 4), footprints=True, shape='square', color=COLOR.green)
     b = agent(m, 2, 4, goal=(5, 1), footprints=True, filled=True)
     c = agent(m, 5, 1, footprints=True, color=COLOR.yellow)
@@ -137,16 +145,15 @@ if __name__ == '__main__':
     m.tracePath({b: dfsPath})
     m.tracePath({c: fwdPath})
     m.run()
-```
 
-### `dfs.csv`
+dfs.csv
+
 This file contains additional data related to DFS, which can be used for further analysis or logging.
 
+Author
 
-## Author
-- [Akshaj chainani]
+Akshaj Chainani
 
-## Acknowledgments
-- Special thanks to the `pyamaze` library for maze generation and visualization.
-```
+Acknowledgments
 
+Special thanks to the pyamaze library for maze generation and visualization.
