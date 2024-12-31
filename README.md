@@ -6,18 +6,9 @@ This repository contains Python implementations of the Depth-First Search (DFS) 
 
 ## Files in the Repository
 
-### 1. `DFS.py`
-- **Description**: Implements the DFS algorithm for maze solving.
-- **Features**:
-  - Generates a maze of customizable size.
-  - Finds a path from the start to the goal.
-  - Visualizes the solved path.
-- **How to Run**:
-  ```bash
-  python DFS.py
-  ```
 
-### 2. `DFSDemo.py`
+
+### 1. `DFSfinal.py`
 - **Description**: Advanced implementation of the DFS algorithm.
 - **Features**:
   - Supports multiple agents with different visual attributes.
@@ -25,10 +16,10 @@ This repository contains Python implementations of the Depth-First Search (DFS) 
   - Allows goal customization.
 - **How to Run**:
   ```bash
-  python DFSDemo.py
+  python DFSfinal.py
   ```
 
-### 3. `dfs.csv`
+### 2. `dfs.csv`
 - **Description**: Contains sample data related to DFS (optional for use).
 ---
 
@@ -63,28 +54,21 @@ pip install pyamaze
 
 ## Usage
 
-### Run Basic DFS Example:
-1. Navigate to the directory containing the scripts.
-2. Execute the following command:
-   ```bash
-   python DFS.py
-   ```
 
-### Run Advanced DFS Demonstration:
+
+### Run  DFS Demonstration:
 1. Navigate to the directory containing the scripts.
 2. Execute the following command:
    ```bash
-   python DFSDemo.py
+   python DFSfinal.py
    ```
 
 ---
 
 ## Example Output
 
-### Basic DFS (`DFS.py`):
-Generates a maze and visualizes the shortest path to the goal using a single agent.
 
-### Advanced DFS (`DFSDemo.py`):
+### final DFS (`DFSfinal.py`):
 Demonstrates DFS with:
 - Multiple agents with different visual appearances.
 - Visualization of explored cells and final paths.
