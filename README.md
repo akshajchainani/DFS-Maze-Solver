@@ -1,6 +1,5 @@
-Here's the full README file in proper `.md` format, written as a single block of Markdown code. This is ready to be copied and uploaded as `README.md` to GitHub:
 
-```markdown
+
 # Depth-First Search (DFS) in Python
 
 This repository contains Python implementations of the Depth-First Search (DFS) algorithm using the `pyamaze` library. The DFS algorithm is used to explore and solve mazes, and the project includes both basic and advanced demonstrations with visualization.
