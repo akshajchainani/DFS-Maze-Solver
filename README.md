@@ -35,7 +35,7 @@ This repository contains Python implementations of the Depth-First Search (DFS) 
 ### Demonstration GIF
 You can watch a demonstration of the project by viewing the GIF below:
 
-<img src="Recording%202024-12-31%20194952.gif" width="800" height="600" alt="Demonstration GIF">
+<img src="Recording%202024-12-31%20194952.gif" width="800" height="400" alt="Demonstration GIF">
 
 
 
